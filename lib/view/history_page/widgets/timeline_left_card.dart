@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:timeline_tile/timeline_tile.dart';
 import 'package:yoga/constants/style.dart';
 import 'package:yoga/view/global_widgets/custom_paragraph_style.dart';
-import 'package:yoga/view/history_page/widgets/timeline_section.dart';
+
+import '../../global_widgets/custom_heading22px.dart';
 
 class TimelineLeftCard extends StatelessWidget {
   final String heading;
@@ -50,7 +51,7 @@ class TimelineLeftCard extends StatelessWidget {
           children: [
             Text(
               heading,
-              style: customTimeLineHeadingStyle(),
+              style: customHeading22px(),
             ),
             if (description.isEmpty)
               Container()
@@ -67,7 +68,7 @@ class TimelineLeftCard extends StatelessWidget {
           margin: const EdgeInsets.only(left: 10),
           child: Text(
             year,
-            style: customTimeLineHeadingStyle(),
+            style: customHeading22px(),
           )),
     );
   }

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:yoga/constants/style.dart';
 import 'package:yoga/view/history_page/widgets/timeline_left_card.dart';
 import 'package:yoga/view/history_page/widgets/timeline_right_card.dart';
@@ -148,10 +147,4 @@ class TimelineSection extends StatelessWidget {
   }
 }
 
-TextStyle customTimeLineHeadingStyle() {
-  return GoogleFonts.poppins(
-    fontSize: 22,
-    fontWeight: FontWeight.w500,
-    color: kTextColor2,
-  );
-}
+

@@ -9,3 +9,5 @@ const kParagraphColor = Color(0xff7A7A7A);
 const kOverlappingBackText = Color(0xffD8C891);
 
 const kMaxWidth = 1282.0;
+
+
