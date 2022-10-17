@@ -40,7 +40,7 @@ class JotSection2 extends StatelessWidget {
                       children: [
                         Text(
                           "Accounting Clerk",
-                          style: customHeading22px(),
+                          style: customHeading22px(kTextColor2),
                         ),
                         Text(
                           "Temporary Contract",

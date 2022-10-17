@@ -42,7 +42,7 @@ class TimelineRightCard extends StatelessWidget {
             margin: const EdgeInsets.only(right: 10),
             child: Text(
               year,
-              style: customHeading22px(),
+              style: customHeading22px(kTextColor2),
               textAlign: TextAlign.end,
             )),
         endChild: Container(
@@ -59,7 +59,7 @@ class TimelineRightCard extends StatelessWidget {
             children: [
               Text(
                 heading,
-                style: customHeading22px(),
+                style: customHeading22px(kTextColor2),
               ),
               if (description.isEmpty)
                 Container()

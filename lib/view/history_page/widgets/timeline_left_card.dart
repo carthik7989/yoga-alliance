@@ -51,7 +51,7 @@ class TimelineLeftCard extends StatelessWidget {
           children: [
             Text(
               heading,
-              style: customHeading22px(),
+              style: customHeading22px(kTextColor2),
             ),
             if (description.isEmpty)
               Container()
@@ -68,7 +68,7 @@ class TimelineLeftCard extends StatelessWidget {
           margin: const EdgeInsets.only(left: 10),
           child: Text(
             year,
-            style: customHeading22px(),
+            style: customHeading22px(kTextColor2),
           )),
     );
   }

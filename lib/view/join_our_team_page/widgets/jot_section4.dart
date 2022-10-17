@@ -19,7 +19,7 @@ class JotSection4 extends StatelessWidget {
               Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             Text(
               "Working at Yoga Alliance",
-              style: customHeading22px(),
+              style: customHeading22px(kTextColor2),
             ),
             const SizedBox(
               height: 10,
