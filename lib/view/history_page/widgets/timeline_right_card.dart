@@ -67,7 +67,7 @@ class TimelineRightCard extends StatelessWidget {
                 Text(
                   description,
                   textAlign: TextAlign.start,
-                  style: customParagraphStyle(),
+                  style: customParagraphStyle(kTextColor2),
                 )
             ],
           ),

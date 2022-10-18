@@ -21,7 +21,7 @@ class HistorySection2 extends StatelessWidget {
               Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             Text(
               "The Yoga Alliance history timeline captures a few of the many milestones that have shaped this organization.\nSprouted from inspired beginnings, Yoga Alliance is now the leading international nonprofit association representing the yoga community, fostering and supporting the high quality, safe, accessible, and equitable teaching of yoga.",
-              style: customParagraphStyle(),
+              style: customParagraphStyle(kTextColor2),
             ),
             const SizedBox(
               height: 20,
@@ -50,7 +50,7 @@ class HistorySection2 extends StatelessWidget {
             ),
             Text(
               "Yoga originated approximately 5,000 years ago in India. Over the next many centuries, this system for wellbeing on all levels (physical, mental, emotional, and spiritual) spread throughout both Eastern and Western cultures. Yoga’s evolution and growth eventually shaped the Yoga Alliance standards and credentials as they stand today.",
-              style: customParagraphStyle(),
+              style: customParagraphStyle(kTextColor2),
             )
           ]),
         )

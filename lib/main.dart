@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:yoga/view/about_yoga_page/about_yoga_page.dart';
-import 'package:yoga/view/history_page/history_page.dart';
-import 'package:yoga/view/home_page/home_page.dart';
-import 'package:yoga/view/join_our_team_page/join_our_team_page.dart';
+import 'package:yoga/view/membership_benefits_page/membership_benefits_page.dart';
+import 'package:yoga/view/yoga_alliance_foundation_page/yoga_alliance_foundation_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           primarySwatch: Colors.blue,
           textTheme: GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme)),
-      home: const AboutYogaPage(),
+      home: const YogaAllianceFoundationPage(),
     );
   }
 }

@@ -20,7 +20,7 @@ class JotSection2 extends StatelessWidget {
           child: Column(children: [
             Text(
               "Yoga Alliance and the Yoga Alliance Foundation are experiencing a period of growth. In this spirit, we encourage interested applicants to check back frequently for new job openings as new positions evolve and become available.",
-              style: customParagraphStyle(),
+              style: customParagraphStyle(kTextColor2),
             ),
             const SizedBox(
               height: 20,
@@ -44,7 +44,7 @@ class JotSection2 extends StatelessWidget {
                         ),
                         Text(
                           "Temporary Contract",
-                          style: customParagraphStyle(),
+                          style: customParagraphStyle(kTextColor2),
                         ),
                         const SizedBox(
                           height: 10,

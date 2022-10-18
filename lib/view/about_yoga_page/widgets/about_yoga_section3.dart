@@ -192,7 +192,7 @@ class AboutYogaCard extends StatelessWidget {
                       ),
                       Text(
                         subText,
-                        style: customParagraphStyle(),
+                        style: customParagraphStyle(kTextColor2),
                       ),
                       const SizedBox(
                         height: 20,
